@@ -1,9 +1,9 @@
 /* ==UserStyle==
 @name           Hope-D
-@namespace      https://github.com/Catgrills/Hope-D
-@version        1.0.3
+@namespace      https://github.com/BananaaHammock/Hope-D
+@version        1.0.0
 @description    An userstyle for Google called Hope-D.
-@author         Catgrills/Katgrills
+@author         Catgrills forked by BananaaHammock
 @preprocessor 	uso
 @var select theme 'Theme' {
 	"Light": `
@@ -57,8 +57,8 @@
 
 	input::-moz-placeholder {
 		color: var(--primary-color);
-		font-size: 14pt !important;
-		font-stretch: condensed;
+		font-size: 10pt !important;
+		font-stretch: normal;
 	}
 
 	body {
@@ -93,12 +93,11 @@
 	.nrgt .mrf .fl /*** MORE FROM LINK ***/,
 	.N6pxec /*** NEWS ALERT FOOTER ***/,
 	.pddsle.ellip,
-	.q.qs[href*="shop"] /*** SHOP LINK ***/,
 	#rhs .commercial-unit-desktop-rhs /*** COMMERCIAL ADS ***/,
 	#search #ires #rso .g .ts > .card-section /*** OTHERS NEWS LINKS ***/,
 	.std.stp.card-section /*** TIPS ***/,
 	#tvcap /*** ADS ***/,
-	#tw-gtlink /*** OPEN IN GOOGLE TRADUCTION LINK ***/,
+	#tw-gtlink /*** OPEN IN GOOGLE TRANSLATION LINK ***/,
 	.vk_ard /*** SIDEBAR MORE ICON ***/,
 	.vk_aru/*** SIDEBAR LESS ICON ***/ {
 		display: none !important;
@@ -110,7 +109,7 @@
 	.sfbgg {
 
 		/*** HEADER BACKGROUND ***/
-		background: no-repeat url("https://i.pinimg.com/originals/1b/1e/37/1b1e37653a271d552088c8582b42b1f8.jpg") center !important;
+		background: no-repeat url("https://i.imgur.com/LMGXcWs.png") center !important;
 		background-size: cover !important;
 		height: 84px !important;
 	}
@@ -138,8 +137,8 @@
 		background-color: var(--card-bg) !important;
 		background-size: 25px auto !important;
 		border-right: 1px dotted var(--border-color) !important;
-		border-top-left-radius: 2px !important;
-		border-bottom-left-radius: 2px !important;
+		border-top-left-radius: 3px !important;
+		border-bottom-left-radius: 3px !important;
 		box-shadow: 0px 1px 2px rgba(0, 0, 0, .1) !important;
 		padding: 44px 0px 0px 44px !important;
 		margin-top: 3px !important;
@@ -169,8 +168,8 @@
 		background: var(--card-bg) !important;
 		color: var(--primary-color);
 		font-family: "Roboto", "ぼくたちのゴシック２ボールド" !important;
-		font-size: 15pt !important;
-		font-stretch: condensed !important;
+		font-size: 12pt !important;
+		font-stretch: normal !important;
 		font-weight: normal !important;
 	}
 
@@ -178,14 +177,14 @@
 
 		/*** HEADER SEARCH BAR RESULTS BOX ***/
 		border: none !important;
-		border-radius: 2px !important;
+		border-radius: 3px !important;
 		box-shadow: 0px 1px 2px rgba(0, 0, 0, .2) !important;
 	}
 
 	.sbdd_b .sbsb_a {
 		background: var(--card-bg);
 		border: none !important;
-		border-radius: 2px !important;
+		border-radius: 3px !important;
 		box-shadow: none !important;
 		padding: 20px 10px 25px 10px !important;
 		margin-top: 10px !important;
@@ -193,8 +192,8 @@
 
 	.sbdd_b .sbsb_a * {
 		color: var(--primary-color);
-		font-size: 14pt !important;
-		font-stretch: condensed !important;
+		font-size: 10pt !important;
+		font-stretch: normal !important;
 		font-weight: normal !important;
 		line-height: 20pt !important;
 	}
@@ -225,7 +224,7 @@
 		/*** HEADER SEARCH BAR PICTURE SEARCH CONTAINER ***/
 		background: var(--card-bg);
 		border: none !important;
-		border-radius: 2px !important;
+		border-radius: 3px !important;
 		box-shadow: 0px 1px 2px rgba(0, 0, 0, .1) !important;
 		height: 187px !important;
 		position: fixed !important;
@@ -240,8 +239,8 @@
 
 		/*** HEADER SEARCH BAR PICTURE SEARCH CONTAINER HEADER ***/
 		color: var(--primary-color);
-		font-size: 16pt !important;
-		font-stretch: condensed !important;
+		font-size: 11pt !important;
+		font-stretch: normal !important;
 		font-weight: normal !important;
 	}
 
@@ -249,8 +248,8 @@
 
 		/*** HEADER SEARCH BAR PICTURE SEARCH CONTAINER TEXT ***/
 		color: var(--primary-color);
-		font-size: 14pt !important;
-		font-stretch: condensed;
+		font-size: 10pt !important;
+		font-stretch: normal;
 	}
 
 	.qbtbha.sl {
@@ -290,9 +289,8 @@
 	.qbwr .qbtbha,
 	.qbwr .qbtbha * {
 		font-family: "Roboto" !important;
-		font-size: 14pt !important;
-		font-stretch: condensed !important;
-		font-weight: normal !important;
+		font-size: 10pt !important;
+		font-stretch: normal !important;
 	}
 
 	#qbui {
@@ -301,24 +299,24 @@
 		box-shadow: 0px 1px 2px rgba(0, 0, 0, .1) !important;
 		border-radius: 2px !important;
 		color: var(--primary-color);
-		font-size: 14pt !important;
+		font-size: 10pt !important;
 		font-family: "Roboto" !important;
-		font-stretch: condensed !important;
+		font-stretch: normal !important;
 		padding-left: 9px !important;
 	}
 
 	#qbbtc .gbqfb {
 		font-family: "Roboto" !important;
-		font-size: 14pt !important;
-		font-stretch: condensed !important;
+		font-size: 10pt !important;
+		font-stretch: normal !important;
 		font-weight: normal !important;
 		width: 150px !important;
 	}
 
 	#qbfile {
 		font-family: "Roboto" !important;
-		font-size: 14pt !important;
-		font-stretch: condensed !important;
+		font-size: 10pt !important;
+		font-stretch: normal !important;
 	}
 
 	#top_nav {
@@ -339,10 +337,10 @@
 	#hdtbSum {
 		background: var(--card-bg) !important;
 		border-top: none !important;
-		font-size: 14pt !important;
-		font-stretch: condensed !important;
-		padding-bottom: 10px !important;
-		margin-top: 15px !important;
+		font-size: 12pt !important;
+		font-stretch: normal !important;
+		padding-bottom: 0px !important;
+		margin-top: 5px !important;
 	}
 
 	.hdtb-mitem.hdtb-msel.hdtb-imb {
@@ -352,8 +350,8 @@
 
 	#hdtb #hdtbMenus {
 		background: var(--card-bg);
-		font-size: 14pt !important;
-		font-stretch: condensed !important;
+		font-size: 10pt !important;
+		font-stretch: normal !important;
 		margin-top: -8px !important;
 		padding-bottom: 8px !important;
 	}
@@ -443,8 +441,8 @@
 
 	.abup * {
 		color: var(--primary-color);
-		font-size: 15pt !important;
-		font-stretch: condensed;
+		font-size: 10pt !important;
+		font-stretch: normal;
 	}
 
 	.klitem,
@@ -459,15 +457,15 @@
 	.kltat,
 	.appbar .rl_item_base .title {
 		color: var(--primary-color);
-		font-size: 14pt !important;
-		font-stretch: condensed;
+		font-size: 10pt !important;
+		font-stretch: normal;
 	}
 
 	.klmeta,
 	.appbar .rl_item_base span {
 		color: var(--secondary-color);
-		font-size: 12pt !important;
-		font-stretch: condensed;
+		font-size: 10pt !important;
+		font-stretch: normal;
 		margin-top: 3px !important;
 	}
 
@@ -489,8 +487,8 @@
 	#main #cnt #appbar #extabar #topabar #slim_appbar {
 
 		/*** SEARCH MAIN RESULTS TOP BAR RESULTS COUNTER ***/
-		font-size: 14pt !important;
-		font-stretch: condensed !important;
+		font-size: 11pt !important;
+		font-stretch: normal !important;
 		margin-left: 62px !important;
 	}
 
@@ -521,7 +519,7 @@
 	#fprs {
 
 		/*** SEARCH MAIN RESULTS LEFT COLUMN AUTOCORRECT ***/
-		font-stretch: condensed !important;
+		font-stretch: normal !important;
 		display: block !important;
 	}
 
@@ -533,22 +531,23 @@
 	.spell,
 	.ssp * {
 		color: var(--primary-color);
-		font-size: 17pt !important;
-		font-stretch: condensed;
+		font-size: 12pt !important;
+		font-stretch: normal;
+		text-transform: capitalize !important;
 	}
 
 	.spell_orig {
 		color: var(--primary-color);
-		font-size: 16pt !important;
-		text-transform: lowercase !important;
+		font-size: 12pt !important;
+		text-transform: capitalize !important;
 	}
 
 	.mw #rcnt .col #center_col #res #search .g {
 
 		/*** SEARCH MAIN RESULTS LEFT COLUMN CARD RESULT ***/
 		border-bottom: 1px dotted var(--border-color);
-		padding-bottom: 25px !important;
-		margin-bottom: 20px;
+		padding-bottom: 5px !important;
+		margin-bottom: 10px;
 	}
 
 	.mw #rcnt .col #center_col #res #search #imagebox_bigimages {
@@ -566,8 +565,8 @@
 
 		/*** SEARCH MAIN RESULTS LEFT COLUMN CARD RESULT IMAGE CONTAINER TITLE ***/
 		color: #436EBC !important;
-		font-size: 16pt !important;
-		font-stretch: condensed;
+		font-size: 10pt !important;
+		font-stretch: normal;
 	}
 
 	.mw #rcnt .col #center_col #res #search #imagebox_bigimages img {
@@ -579,10 +578,9 @@
 	.mw #rcnt .col #center_col #res #search #ires #rso .g h3 * {
 
 		/*** SEARCH MAIN RESULTS LEFT COLUMN TITLE ***/
-		font-size: 16pt !important;
-		font-stretch: condensed;
-		font-weight: normal !important;
-		margin-bottom: 10px !important;
+		font-size: 12pt !important;
+		font-stretch: normal;
+		margin-bottom: 5px !important;
 	}
 
 	.mw #rcnt .col #center_col .rc h3 a,
@@ -603,8 +601,8 @@
 
 		/*** SEARCH MAIN RESULTS LEFT COLUMN LINK ***/
 		color: #1E8945 !important;
-		font-size: 14pt !important;
-		font-stretch: condensed !important;
+		font-size: 10pt !important;
+		font-stretch: normal !important;
 	}
 
 	.mw #rcnt .col #center_col .rc .s .f {
@@ -625,8 +623,8 @@
 	.mw #rcnt .col #center_col #res #search #ires #rso .g .slp > span:nth-of-type(2),
 	.mw #rcnt .col #center_col #res #search #ires #rso .g .slp > span:nth-of-type(3) {
 		color: var(--secondary-color) !important;
-		font-size: 14pt !important;
-		font-stretch: condensed !important;
+		font-size: 10pt !important;
+		font-stretch: normal !important;
 	}
 
 	.mw #rcnt .col #center_col .rc .s .f .action-menu > a {
@@ -646,8 +644,8 @@
 
 		/*** SEARCH MAIN RESULTS LEFT COLUMN DESCRIPTION ***/
 		color: var(--primary-color);
-		font-size: 14pt !important;
-		font-stretch: condensed !important;
+		font-size: 10pt !important;
+		font-stretch: normal !important;
 		line-height: 20pt !important;
 	}
 
@@ -658,7 +656,7 @@
 	.mw #rcnt .col #center_col .top {
 
 		/*** SEARCH MAIN RESULTS LEFT COLUMN ARTICLE ***/
-		margin-right: 20px !important;
+		margin-right: 10px !important;
 	}
 
 	.mw #rcnt .col #center_col .top .th {
@@ -671,7 +669,7 @@
 	.mw #rcnt .col #center_col .rc .s .th * {
 
 		/*** SEARCH MAIN RESULTS LEFT COLUMN VIDEO ***/
-		color: #FFF !important;
+		color: #fff !important;
 	}
 
 	.mw #rcnt .col #center_col .rc .s div[style*="margin-left:12"] {
@@ -684,16 +682,16 @@
 
 		/*** SEARCH MAIN RESULTS LEFT COLUMN TAGS ***/
 		color: transparent !important;
-		margin-top: 15px !important;
-		margin-bottom: 0px !important;
+		margin-top: 5px !important;
+		margin-bottom: 5px !important;
 	}
 
 	.mw #rcnt .col #center_col .rc .s .osl a {
 		background: #436EBC;
-		border-radius: 2px !important;
+		border-radius: 3px !important;
 		box-shadow: 0px 1px 2px rgba(0, 0, 0, .2) !important;
-		color: #FFF !important;
-		line-height: 31pt !important;
+		color: #fff !important;
+		line-height: 5pt !important;
 		padding: 5px 10px 6px 10px !important;
 		white-space: nowrap;
 		margin-right: -8px;
@@ -717,15 +715,15 @@
 		/*** SEARCH MAIN RESULTS LEFT COLUMN MORE CONTENT ***/
 		color: var(--secondary-color);
 		font-size: 14pt;
-		font-stretch: condensed !important;
+		font-stretch: normal !important;
 	}
 
 	.mw #rcnt .col #center_col table h3 a {
 
 		/*** SEARCH MAIN RESULTS LEFT COLUMN MORE LINK ***/
 		color: #436EBC !important;
-		font-size: 16pt !important;
-		font-stretch: condensed;
+		font-size: 10pt !important;
+		font-stretch: normal;
 	}
 
 	.mw #rcnt .col #center_col #bres {
@@ -738,7 +736,7 @@
 	.mw #rcnt .col #center_col #search #ires #rso #dictionary-modules .kp-blk .dw-sb-btn {
 
 		/*** SEARCH MAIN RESULTS LEFT COLUMN DICTIONNARY CARD SEARCH ***/
-		border-radius: 2px !important;
+		border-radius: 5px !important;
 		box-shadow: 0px 1px 2px rgba(0, 0, 0, .1) !important;
 	}
 
@@ -755,15 +753,16 @@
 
 		/*** SEARCH MAIN RESULTS LEFT COLUMN DICTIONNARY CARD TEXT ***/
 		color: var(--primary-color);
-		font-size: 14pt !important;
-		font-stretch: condensed;
+		font-size: 10pt !important;
+		font-stretch: normal !important;
+		font-weight: 400;
 	}
 
 	.mw #rcnt .col #center_col #search #ires #rso .mod .g .obcontainer.card-section {
 
 		/*** SEARCH MAIN RESULTS LEFT COLUMN CONVERTER CARDS ***/
 		background: var(--card-bg-2) !important;
-		border-radius: 2px !important;
+		border-radius: 3px !important;
 		box-shadow: 0px 1px 2px rgba(0, 0, 0, .1) !important;
 		margin: 0px -10px 0px -4px !important;
 	}
@@ -774,25 +773,25 @@
 		background: var(--body-bg) !important;
 		box-shadow: 0px 1px 2px rgba(0, 0, 0, .1) !important;
 		color: var(--primary-color);
-		font-size: 14pt !important;
-		font-stretch: condensed;
+		font-size: 10pt !important;
+		font-stretch: normal;
 	}
 
 	.g.knavi.obcontainer #tw-container {
 
-		/*** SEARCH MAIN RESULTS LEFT COLUMN GOOGLE TRADUCTION CARD ***/
+		/*** SEARCH MAIN RESULTS LEFT COLUMN GOOGLE TRANSLATION CARD ***/
 		background: var(--card-bg-2) !important;
-		border-radius: 2px !important;
+		border-radius: 3px !important;
 		box-shadow: 0px 1px 2px rgba(0, 0, 0, .1) !important;
 		margin: 0px -10px 0px -4px !important;
 	}
 
 	.g.knavi.obcontainer #tw-container * {
 
-		/*** SEARCH MAIN RESULTS LEFT COLUMN GOOGLE TRADUCTION CARD TEXT ***/
+		/*** SEARCH MAIN RESULTS LEFT COLUMN GOOGLE TRANSLATION CARD TEXT ***/
 		color: var(--primary-color) !important;
-		font-stretch: condensed;
-		font-weight: normal;
+		font-size: 10pt;
+		font-stretch: normal;
 	}
 
 	.g.knavi.obcontainer #tw-container .tw-lang-selector-wrapper {
@@ -803,7 +802,7 @@
 	}
 
 	.g.knavi.obcontainer #tw-container .tw-lang-selector {
-		font-size: 14pt !important;
+		font-size: 12pt !important;
 		height: inherit !important;
 		width: inherit !important;
 	}
@@ -819,7 +818,7 @@
 
 		/*** SEARCH MAIN RESULTS LEFT COLUMN CALCULATOR CARD ***/
 		background: var(--card-bg-2) !important;
-		border-radius: 2px !important;
+		border-radius: 3px !important;
 		box-shadow: 0px 1px 2px rgba(0, 0, 0, .1) !important;
 		margin: 0px -10px 0px -4px !important;
 	}
@@ -836,7 +835,7 @@
 
 		/*** SEARCH MAIN RESULTS LEFT COLUMN CALCULATOR CARD BUTTONS ***/
 		background: var(--body-bg) !important;
-		border-radius: 2px !important;
+		border-radius: 3px !important;
 		box-shadow: 0px 1px 2px rgba(0, 0, 0, .1);
 	}
 
@@ -844,7 +843,7 @@
 
 		/*** SEARCH MAIN RESULTS LEFT COLUMN WEATHER CARD ***/
 		background: var(--card-bg-2) !important;
-		border-radius: 2px !important;
+		border-radius: 3px !important;
 		box-shadow: 0px 1px 2px rgba(0, 0, 0, .1) !important;
 		margin: 0px -10px 0px -4px !important;
 	}
@@ -863,12 +862,14 @@
 
 		/*** SEARCH MAIN RESULTS LEFT COLUMN WEATHER CARD CURRENT ***/
 		background: var(--body-bg) !important;
-		border-radius: 2px !important;
-		padding-bottom: 10px !important;
+		border-radius: 3px !important;
+		padding-bottom: 8px !important;
 	}
 
 	#wob_wc * {
 		color: var(--primary-color) !important;
+		font-size: 10pt;
+		font-stretch: normal;
 		font-weight: normal !important;
 	}
 
@@ -878,7 +879,7 @@
 		background: var(--card-bg-2) !important;
 		box-shadow: 0px 1px 2px rgba(0, 0, 0, .1) !important;
 		color: var(--primary-color) !important;
-		font-stretch: condensed !important;
+		font-stretch: normal !important;
 		margin: 0px -10px 0px -4px !important;
 	}
 
@@ -909,7 +910,7 @@
 
 		/*** SEARCH MAIN RESULTS LEFT COLUMN ASK CARD TOPICS DETAILS ***/
 		background: var(--body-bg) !important;
-		border-radius: 1px !important;
+		border-radius: 3px !important;
 		padding-bottom: 20px !important;
 	}
 
@@ -917,7 +918,7 @@
 
 		/*** SEARCH MAIN RESULTS LEFT COLUMN ASK CARD TOPICS DETAILS TEXT ***/
 		color: var(--primary-color);
-		font-size: 14pt !important;
+		font-size: 10pt !important;
 		line-height: 18pt !important;
 	}
 
@@ -940,15 +941,15 @@
 
 		/*** SEARCH MAIN RESULTS LEFT COLUMN TRIPS CARD TEXT ***/
 		color: var(--primary-color);
-		font-size: 14pt;
-		font-stretch: condensed;
+		font-size: 10pt;
+		font-stretch: normal;
 		line-height: 18pt !important;
 		overflow: visible !important;
 	}
 
 	.mw #rcnt .col #center_col #res #search #ires #rso g-section-with-header .ellip {
-		font-size: 14pt !important;
-		font-stretch: condensed;
+		font-size: 10pt !important;
+		font-stretch: normal;
 		height: 30px !important;
 	}
 
@@ -961,8 +962,8 @@
 	}
 
 	.mw #rcnt .col #center_col #res #search #ires #rso .g .s .ellip {
-		font-size: 14pt !important;
-		font-stretch: condensed;
+		font-size: 10pt !important;
+		font-stretch: normal;
 		height: 30px !important;
 	}
 
@@ -991,8 +992,9 @@
 	#knowledge-currency__tgt-selector {
 		background: var(--body-bg) !important;
 		color: var(--primary-color) !important;
-		font-size: 14pt !important;
-		font-stretch: condensed !important;
+		font-size: 11pt !important;
+		font-stretch: normal !important;
+		font-weight: 400 !important;
 	}
 
 	.mw #rcnt .col #center_col #res #search #ires #rso .g.knavi.obcontainer.mod .kp-blk {
@@ -1003,7 +1005,7 @@
 
 	.mw #rcnt .col #center_col #res #search #ires #rso .g.knavi.obcontainer.mod .kp-blk .xpdbox {
 		background: var(--card-bg-2) !important;
-		border-radius: 2px !important;
+		border-radius: 3px !important;
 		box-shadow: 0px 1px 2px rgba(0, 0, 0, .1) !important;
 		margin-right: 5px;
 		margin-left: 12px;
@@ -1015,8 +1017,9 @@
 		/*** SEARCH MAIN RESULTS LEFT COLUMN MOVIE CARD TEXT ***/
 		background-color: transparent;
 		color: var(--primary-color) !important;
-		font-size: 14pt;
-		font-stretch: condensed;
+		font-size: 10pt;
+		font-stretch: normal;
+		font-weight: 400;
 	}
 
 	.mw #rcnt .col #center_col #res #search #ires #rso .g.knavi.obcontainer.mod .kp-blk .xpdbox .lr_container.mod .lr_c_tf {
@@ -1039,8 +1042,9 @@
 
 		/*** SEARCH MAIN RESULTS LEFT COLUMN TOP STORIES CARDS ***/
 		color: var(--primary-color) !important;
-		font-size: 16pt !important;
-		font-stretch: condensed !important;
+		font-size: 11pt !important;
+		font-stretch: normal !important;
+		font-weight: 500 !important;
 		margin-top: 0px !important;
 	}
 
@@ -1057,25 +1061,26 @@
 
 		/*** SEARCH MAIN RESULTS LEFT COLUMN TOP STORIES CARDS TITLE ***/
 		color: var(--primary-color) !important;
-		font-size: 14pt !important;
-		font-stretch: condensed;
-		line-height: 18pt;
+		font-size: 11pt !important;
+		font-stretch: normal;
+		line-height: 12pt;
 	}
 
 	.mw #rcnt .col #center_col #res #search #ires #rso g-section-with-header g-scrolling-carousel g-inner-card cite {
 
 		/*** SEARCH MAIN RESULTS LEFT COLUMN TOP STORIES CARDS SOURCE ***/
 		color: #1E8945 !important;
-		font-size: 14pt !important;
-		font-stretch: condensed;
+		font-size: 11pt !important;
+		font-stretch: normal;
+		font-weight: 500 !important;
 	}
 
 	.mw #rcnt .col #center_col #res #search #ires #rso g-section-with-header g-scrolling-carousel g-inner-card .f span {
 
 		/*** SEARCH MAIN RESULTS LEFT COLUMN TOP STORIES CARDS TIME ***/
 		color: var(--secondary-color) !important;
-		font-size: 14pt !important;
-		font-stretch: condensed;
+		font-size: 10pt !important;
+		font-stretch: normal;
 	}
 
 	.mw #rcnt .col #center_col #res #search #ires #rso g-section-with-header g-inner-card {
@@ -1083,27 +1088,27 @@
 		/*** SEARCH MAIN RESULTS LEFT COLUMN TOP STORIES OTHERS CARDS ***/
 		background: var(--card-bg-2) !important;
 		border: none !important;
-		border-radius: 2px !important;
+		border-radius: 3px !important;
 		box-shadow: 0px 1px 2px rgba(0, 0, 0, .1) !important;
 		margin-right: 5px !important;
-		margin-left: 10px !important;
+		margin-left: 0px !important;
 	}
 
 	.mw #rcnt .col #center_col #res #search #ires #rso g-section-with-header g-inner-card a span {
 		color: #436EBC !important;
-		font-stretch: condensed;
+		font-stretch: normal;
 	}
 
 	.mw #rcnt .col #center_col #res #search #ires #rso g-section-with-header g-inner-card cite {
 		color: #1E8945 !important;
-		font-size: 14pt !important;
-		font-stretch: condensed;
+		font-size: 10pt !important;
+		font-stretch: normal;
 	}
 
 	.mw #rcnt .col #center_col #res #search #ires #rso g-section-with-header g-inner-card span {
 		color: var(--secondary-color);
-		font-size: 14pt !important;
-		font-stretch: condensed;
+		font-size: 10pt !important;
+		font-stretch: normal;
 	}
 
 	.mw #rcnt .col #center_col .mfr * {
@@ -1119,29 +1124,29 @@
 	.mw #rcnt .col #center_col #extrares #brs {
 
 		/*** SEARCH MAIN RESULTS LEFT COLUMN RELATED SEARCH CONTAINER ***/
-		margin-top: -20px !important;
+		margin-top: -30px !important;
 	}
 
 	.mw #rcnt .col #center_col #extrares #brs h3 {
 		color: var(--primary-color) !important;
 		font-family: "Roboto" !important;
-		font-size: 16pt !important;
-		font-stretch: condensed !important;
+		font-size: 12pt !important;
+		font-stretch: normal !important;
 	}
 
 	.mw #rcnt .col #center_col #extrares #brs a {
 		color: #436EBC !important;
-		font-size: 14pt !important;
-		font-stretch: condensed !important;
-		line-height: 18pt !important;
+		font-size: 10pt !important;
+		font-stretch: normal !important;
+		line-height: 12pt !important;
 	}
 
 	.mw #rcnt .col #center_col #foot span,
 	.mw #rcnt .col #center_col #foot a {
 
 		/*** SEARCH MAIN RESULTS LEFT COLUMN PAGINATION ***/
-		font-size: 14pt !important;
-		font-stretch: condensed;
+		font-size: 10pt !important;
+		font-stretch: normal;
 		margin-right: 2px;
 	}
 
@@ -1153,7 +1158,7 @@
 
 	.mw #rcnt .col #center_col #foot #pnprev span[style*="display:block;"] {
 		background: #436EBC !important;
-		border-radius: 2px !important;
+		border-radius: 3px !important;
 		box-shadow: 0px 1px 2px rgba(0, 0, 0, .2) !important;
 		color: #FFF !important;
 		padding: 5px 10px !important;
@@ -1164,7 +1169,7 @@
 
 	.mw #rcnt .col #center_col #foot #pnnext span[style*="display:block;"] {
 		background: #436EBC !important;
-		border-radius: 2px !important;
+		border-radius: 3px !important;
 		box-shadow: 0px 1px 2px rgba(0, 0, 0, .2) !important;
 		color: #FFF !important;
 		padding: 5px 10px !important;
@@ -1182,8 +1187,8 @@
 	.mw #rcnt .col #center_col .card-section div {
 
 		/*** SEARCH MAIN RESULTS LEFT COLUMN IMAGE SEARCH CONTAINER ***/
-		font-size: 14pt !important;
-		font-stretch: condensed !important;
+		font-size: 10pt !important;
+		font-stretch: normal !important;
 		color: var(--primary-color) !important;
 	}
 
@@ -1207,8 +1212,8 @@
 		/*** SEARCH MAIN RESULTS RIGHT COLUMN HEADER ***/
 		color: var(--primary-color) !important;
 		font-family: "Roboto" !important;
-		font-size: 16pt !important;
-		font-stretch: condensed;
+		font-size: 12pt !important;
+		font-stretch: normal;
 	}
 
 	.mw #rcnt .col #rhs .knowledge-panel span,
@@ -1216,18 +1221,17 @@
 
 		/*** SEARCH MAIN RESULTS RIGHT COLUMN TEXT ***/
 		color: var(--primary-color);
-		font-size: 14pt;
-		font-stretch: condensed;
-		font-weight: normal !important;
-		line-height: 20pt !important;
+		font-size: 10pt !important;
+		font-stretch: normal !important;
+		line-height: 14pt !important;
 	}
 
 	.mw #rcnt .col #rhs .knowledge-panel a {
 
 		/*** SEARCH MAIN RESULTS RIGHT COLUMN LINKS ***/
 		color: #436EBC;
-		font-size: 14pt;
-		font-stretch: condensed;
+		font-size: 12pt;
+		font-stretch: normal;
 	}
 
 	.mw #rcnt .col #rhs .knowledge-panel .mod div > a {
@@ -1248,8 +1252,8 @@
 		border: none !important;
 		box-shadow: 0px 1px 2px rgba(0, 0, 0, .1) !important;
 		color: var(--primary-color) !important;
-		font-size: 14pt;
-		font-stretch: condensed;
+		font-size: 10pt;
+		font-stretch: normal;
 		font-weight: normal !important;
 		padding: 5px 10px !important;
 	}
@@ -1288,14 +1292,14 @@
 
 		/*** SEARCH MAIN RESULTS RIGHT COLUMN OTHERS LINKS ***/
 		color: #436EBC !important;
-		font-size: 14pt !important;
-		font-stretch: condensed !important;
+		font-size: 11pt !important;
+		font-stretch: normal !important;
 	}
 
 	.mw #rcnt .col #rhs .knowledge-panel .ellip {
 		color: var(--secondary-color) !important;
-		font-size: 14pt !important;
-		font-stretch: condensed !important;
+		font-size: 10pt !important;
+		font-stretch: normal !important;
 	}
 
 	.mw #rcnt .col #rhs .kp-blk {
@@ -1310,24 +1314,24 @@
 
 		/*** SEARCH MAIN RESULTS RIGHT COLUMN OTHERS BOXES HEADER ***/
 		color: var(--primary-color) !important;
-		font-size: 16pt !important;
-		font-stretch: condensed;
+		font-size: 10pt !important;
+		font-stretch: normal;
 	}
 
 	.mw #rcnt .col #rhs .kp-blk span {
 
 		/*** SEARCH MAIN RESULTS RIGHT COLUMN OTHERS BOXES TEXT ***/
 		color: var(--primary-color) !important;
-		font-size: 14pt !important;
-		font-stretch: condensed;
+		font-size: 10pt !important;
+		font-stretch: normal;
 	}
 
 	.mw #rcnt .col #rhs .kp-blk .ellip {
 
 		/*** SEARCH MAIN RESULTS RIGHT COLUMN OTHERS BOXES LINKS ***/
 		color: #436EBC !important;
-		font-size: 14pt !important;
-		font-stretch: condensed;
+		font-size: 10pt !important;
+		font-stretch: normal;
 	}
 
 	.rhsvw:hover {
@@ -1385,13 +1389,13 @@
 	.chip {
 
 		/*** SEARCH IMAGES RESULTS TAGS ***/
-		border-radius: 2px !important;
+		border-radius: 3px !important;
 		box-shadow: 0px 1px 2px rgba(0, 0, 0, .1) !important;
 	}
 
 	.chip .sq {
-		font-size: 15pt !important;
-		font-stretch: condensed !important;
+		font-size: 12pt !important;
+		font-stretch: normal !important;
 		font-weight: normal !important;
 		padding-bottom: 2px !important;
 	}
@@ -1412,30 +1416,30 @@
 
 		/*** SEARCH IMAGES RESULTS INFORMATIONS BAR ***/
 		background: rgba(51, 51, 51, 1) !important;
-		font-size: 15pt !important;
-		font-stretch: condensed !important;
-		line-height: 23px !important;
-		padding: 15px 10px 18px 15px !important;
+		font-size: 10pt !important;
+		font-stretch: normal !important;
+		line-height: 13px !important;
+		padding: 10px 5px 9px 10px !important;
 	}
 
 	.rg_anbg * {
-		font-size: 15pt !important;
-		font-stretch: condensed !important;
+		font-size: 10pt !important;
+		font-stretch: normal !important;
 	}
 
 	.irc_pt {
 
 		/*** SEARCH IMAGES RESULTS INFORMATIONS MORE ***/
-		font-size: 20pt !important;
-		font-stretch: condensed !important;
+		font-size: 12pt !important;
+		font-stretch: normal !important;
 	}
 
 	.irc_hd,
 	.irc_ho,
 	.irc_asc {
-		font-size: 15pt !important;
-		font-stretch: condensed !important;
-		line-height: 20pt !important;
+		font-size: 10pt !important;
+		font-stretch: normal !important;
+		line-height: 12pt !important;
 	}
 
 	.irc_but_r a {
@@ -1445,8 +1449,8 @@
 	}
 
 	.irc_ris * {
-		font-size: 14pt !important;
-		font-stretch: condensed !important;
+		font-size: 10pt !important;
+		font-stretch: normal !important;
 	}
 
 }
@@ -1460,8 +1464,8 @@ regexp("https://www.google.*/\\?.*") {
 
 	#gbw a {
 		color: var(--primary-color) !important;
-		font-size: 14pt !important;
-		font-stretch: condensed !important;
+		font-size: 11pt !important;
+		font-stretch: normal !important;
 	}
 
 	#gsr #searchform #tsf .tsf-p {
@@ -1476,8 +1480,8 @@ regexp("https://www.google.*/\\?.*") {
 	.jsb input {
 		border: none !important;
 		box-shadow: 0px 1px 2px rgba(0, 0, 0, .1) !important;
-		font-size: 14pt !important;
-		font-stretch: condensed !important;
+		font-size: 10pt !important;
+		font-stretch: normal !important;
 		font-weight: normal !important;
 		height: 45px !important;
 		padding-bottom: 3px !important;
@@ -1494,4 +1498,3 @@ regexp("https://www.google.*/\\?.*") {
 	}
 
 }
-

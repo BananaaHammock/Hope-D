@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Hope-D
 @namespace      https://github.com/BananaaHammock/Hope-D
-@version        1.0.0
+@version        1.0.1
 @description    An userstyle for Google called Hope-D.
 @author         Catgrills forked by BananaaHammock
 @preprocessor 	uso
@@ -121,7 +121,7 @@
 	.sfbgg::before {
 
 		/*** HEADER BORDER TOP ***/
-		background-image: linear-gradient(to right, #73D2F6, #3369E8 22%, #EF5350 36%, #D50F25 48%, #FFE082 63%, #EEB211 76%, #009925) !important;
+		background: url("https://i.imgur.com/f0NROdX.png") center !important;
 		color: transparent !important;
 		content: "dd" !important;
 		height: 3px !important;
